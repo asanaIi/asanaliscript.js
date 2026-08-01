@@ -1,0 +1,6 @@
+<AsanaliScript:JS cdn:jsdelivr="https://cdn.jsdelivr.net/npm/ascript@1.0.1" realOfficial:site="https://asanaliscript-lang.pages.dev">
+    <Original:repotisory>https://github.com/asanalinskiy/SourceCode-Asanali.Script</Original:repotisory>
+    <Source:code type="JS">https://github.com/asanalinskiy/asanaliscript.js</Source:code>
+    <Made:in>Python</Made:in>
+    <Install:package with="https://nodejs.org/">npm i -g ascript</Install:package>
+</AsanaliScript:JS>
