@@ -1,4 +1,4 @@
 *.xml linguist-detectable=true
 *.json linguist-detectable=true
 *.md linguist-detectable
-*.easteregg linguist-language=dockerfile
+*.easteregg linguist-language=Text linguist-detectable=true
