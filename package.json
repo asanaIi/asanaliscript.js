@@ -1,6 +1,6 @@
 {
   "name": "asanaliscript",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "description": "The my programming language 'Asanali Script' but in JS",
   "main": "ascript.js",
   "scripts": {
@@ -16,6 +16,11 @@
   "author": "asanali",
   "type": "commonjs",
   "dependencies": {
-    "asanaliscript": "^1.0.0"
-  }
+    "asanaliscript": "^1.0.5"
+  },
+  "files": [
+  "ascript.js",
+  "package.json",
+  "ascript.xml"
+]
 }
