@@ -1,21 +1,29 @@
-## Скачивание фреймворка
-Сначала зайдите в нужную директорию (или в [C:\Users\твой-ник](file:///C:/)
-Потом введите это:
-```cmd
-npm install ascript
+## Usage
+
+After installation, require the library in your project:
+
+```javascript
+const asanali = require('asanaliscript');
+
+// Initialize your logic
+asanali.run({
+    // Your AsanaliScript configurations here
+});
+
 ```
-или
-```cmd
-npm install -g ascript
+
+## Syntax Overview
+
+AsanaliScript focuses on readability and simplicity. Explore the unique structure designed to enhance development workflows.
+
+```javascript
+// Example of core syntax
+asanali.process("initialize", () => {
+    console.log("AsanaliScript is running...");
+});
+
 ```
->не важно.
->
-Потом будет временный цикл из символов | / - \, это значит что Node.js/npm собирает данные ascript, потом будут какие то сообщения - это нормально, значит фреймворк уже скачивается. Для скачивания необходимо package.json (можно сделать его через команду `npm init -y` и будет файл package.json), потом когда всё скачается - появится package-lock.json и папка node_modules (не удаляйте, оно хранит важные папки и файлы для asanaliscript.js
-___________________________
-## Downloading the framework
-First, navigate to the desired directory (or [C:\Users\your-nickname](file:///C:/Users)
-Then enter this:
-```cmd
-npm install ascript
-```
-Then you'll see a temporary loop of | / - \ characters, which means Node.js/npm is collecting ascript data. Then you'll see some messages—this is normal, meaning the framework is already downloading. To download, you need a package.json (you can create one with the command `npm init -y`, and you'll have a package.json file). Once everything is downloaded, you'll see a package-lock.json and a node_modules folder (don't delete it, it stores important folders and files for asanaliscript.js).
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/asanalidev/asanaliscript.js/blob/main/LICENSE) file for details.
