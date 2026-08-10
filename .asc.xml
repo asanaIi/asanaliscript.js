@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<asanaliScriptJS 
+<!DOCTYPE asanaliScript>
+<asanaliScript
 xmlns:site="https://asanaliscript-officialsite.onrender.com/asanaliscript"
 xmlns:cdn="https://cdn.jsdelivr.net/npm/asanaliscript@1.0.5+esm">
     <originalRepo link="https://github.com/asanalinskiy/SourceCode-Asanali.Script"/>
     <language frameworkV="text/javascript" originalV="text/python"/>
     <nodejsPkg
         xmlns:pkg="https://www.npmjs.com/package/asanaliscript"
-        weeklyDownload="565"
+        weeklyDownload="${{ weeklyDownload }}"
         version="1.0.5"
         License="none"
         author="asanali1717"
@@ -16,4 +16,4 @@ xmlns:cdn="https://cdn.jsdelivr.net/npm/asanaliscript@1.0.5+esm">
         keywords="script, asanscript, asanaliscript, asanali script, ascript"
         public="true"
         xmlns:code="https://www.npmjs.com/package/asanaliscript?activeTab=code"/>
-</asanaliScriptJS>
+</asanaliScript>
